@@ -5,6 +5,7 @@
 - Title: A Simple Reservoir Model of Working Memory with Real Values
 - Authors: Anthony Strock, Nicolas P. Rougier, Xavier Hinaut
 - Abstract: The prefrontal cortex is known to be involved in many high-level cognitive functions, in particular, working memory. Here, we study to what extent a group of randomly connected units (namely an Echo State Network, ESN) can store and maintain (as output) an arbitrary real value from a streamed input, i.e. can act as a sustained working memory unit. Furthermore, we explore to what extent such an architecture can take advantage of the stored value in order to produce non-linear computations. Comparison between different architectures (with and without feedback, with and without a working memory unit) shows that an explicit memory improves the performances.
+- arXiv: https://arxiv.org/abs/1806.06545
 
 ### Instructions to use the code
 
