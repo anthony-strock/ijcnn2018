@@ -1,6 +1,14 @@
 SEED=0
 
-all: figure1 figure2 figure3 figure4 figure5 figure6
+all: data_directories figure1 figure2 figure3 figure4 figure5 figure6
+
+data_directories: data data/mult_many_trigger_producthp data/periodic_trigger_besthp data/productm_testfiltered_random data/random_bound_follow data/random_bound_once data/random_bound_periodic data/random_bound_random data/random_testfiltered_random
+
+data:	
+	mkdir data
+
+data/%:
+	mkdir $@
 
 figure1: img/figure1.pdf
 img/figure1.pdf: src/combined_store.py
